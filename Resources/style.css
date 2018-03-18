@@ -1,0 +1,115 @@
+/* Header */
+.header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: thin solid black;
+}
+
+.header img{
+
+}
+.header span{
+  display: inline-block;
+  width: 80px;
+  position: relative;
+  left: 700px;
+  top: 25px;
+}
+
+.header a{
+  color: black;
+}
+
+.header h3{
+  color: aquamarine;
+  position: relative;
+  top: 10px;
+}
+
+/* Body */
+.column{
+  display: flex;
+}
+.column .large{
+  position: relative;
+  top: 50px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.column .medium{
+  position: relative;
+  top: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.column .small{
+  position: relative;
+  top: 50px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.tunaHeading{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  display: flex;
+  color: white;
+  height: 300px;
+  align-items: center;
+  font-size: 40px;
+}
+
+
+.earth{
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  justify-content: center;
+}
+
+.research{
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  justify-content: center;
+}
+
+.cats{
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  justify-content: center;
+}
+
+.orca,
+.earth,
+.burger,
+.research{
+  width: 300px;
+}
